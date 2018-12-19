@@ -64,6 +64,7 @@ public class ComboBoxDemo extends DemoModule implements ActionListener {
 
     JComboBox presetCB;
 
+
     Hashtable parts = new Hashtable();
 
     /**

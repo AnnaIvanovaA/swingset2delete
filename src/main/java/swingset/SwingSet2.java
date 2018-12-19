@@ -93,7 +93,7 @@ import javax.swing.plaf.metal.MetalTheme;
 import javax.swing.plaf.metal.OceanTheme;
 
 /**
- * A demo that shows all of the Swing components.
+ * A demo that shows all of the Swing components.aaaaaa
  *
  * @author Jeff Dinkins
  */
@@ -117,7 +117,7 @@ public class SwingSet2 extends JPanel {
       "TreeDemo"
     };
 
-    void loadDemos() {
+    public void loadDemos() {
         for(int i = 0; i < demos.length;) {
             if(isApplet() && demos[i].equals("FileChooserDemo")) {
                // don't load the file chooser demo if we are
@@ -760,7 +760,7 @@ public class SwingSet2 extends JPanel {
     /**
      * Loads a demo from a classname
      */
-    void loadDemo(String classname) {
+    public void loadDemo(String classname) {
         setStatus(getString("Status.loading") + getString(classname + ".name"));
         DemoModule demo = null;
         try {
